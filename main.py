@@ -1,6 +1,6 @@
+import random
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
-import random
  
 def create_addition_worksheet(input_digits, output_filename='addition_worksheet.pdf'):
     # Define the size of the PDF
