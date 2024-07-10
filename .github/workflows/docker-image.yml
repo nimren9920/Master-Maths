@@ -22,5 +22,5 @@ jobs:
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/master-maths .
 
       - name: Push Docker image (optional)
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/master-maths:my_tag
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/master-maths:latest
 
